@@ -74,3 +74,20 @@ Semester: Spring 2024
 University: German University in Cairo (GUC)
 
 This project was developed for educational purposes as part of the Software Engineering course at GUC.
+
+## Screenshots
+
+### Select User
+![Select User](screenshots/select-user.png)
+
+### Home Page
+![Home Page](screenshots/home.png)
+
+### Medication Donation Requests
+![Medication Donation Requests](screenshots/requests.png)
+
+### Doctor's Clinic
+![Doctor's Clinic](screenshots/doctors-clinic.png)
+
+### Donated Items
+![Donated Items](screenshots/donated-items.png)
