@@ -1,0 +1,38 @@
+[
+    {
+        "id": 1,
+        "name": "Organization One",
+        "contact": "info@orgone.com",
+        "address": "1234 First St, City, Country",
+        "type": "Nonprofit",
+        "documents": [
+            {
+                "name": "Resume",
+                "filename": "resume_alice.pdf",
+                "url": "/document/11.pdf"
+            },
+            {
+                "name": "Cover Letter",
+                "filename": "cover_letter_alice.pdf",
+                "url": "/documents/cover_letter_alice.pdf"
+            }
+        ],
+        "status": "pending"
+    },
+    {
+        "id": 2,
+        "name": "Organization Two",
+        "contact": "contact@orgtwo.com",
+        "address": "5678 Second St, City, Country",
+        "type": "Educational",
+        "status": "pending"
+    },
+    {
+        "id": 3,
+        "name": "Organization Three",
+        "contact": "hello@orgthree.com",
+        "address": "91011 Third St, City, Country",
+        "type": "Charitable",
+        "status": "pending"
+    }
+]

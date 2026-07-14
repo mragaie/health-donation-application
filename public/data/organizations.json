@@ -1,0 +1,23 @@
+[
+    {
+        "id": 1,
+        "name": "Organization One",
+        "contact": "info@orgone.com",
+        "address": "1234 First St, City, Country",
+        "type": "Nonprofit"
+    },
+    {
+        "id": 2,
+        "name": "Organization Two",
+        "contact": "contact@orgtwo.com",
+        "address": "5678 Second St, City, Country",
+        "type": "Educational"
+    },
+    {
+        "id": 3,
+        "name": "Organization Three",
+        "contact": "hello@orgthree.com",
+        "address": "91011 Third St, City, Country",
+        "type": "Charitable"
+    }
+]

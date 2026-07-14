@@ -1,0 +1,17 @@
+[
+    {
+        "email": "org@example.com",
+        "password": "org123",
+        "role": "organization"
+    },
+    {
+        "email": "donor@example.com",
+        "password": "donor123",
+        "role": "donor"
+    },
+    {
+        "email": "admin@example.com",
+        "password": "admin123",
+        "role": "admin"
+    }
+]

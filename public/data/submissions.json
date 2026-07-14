@@ -1,0 +1,23 @@
+[
+    {
+        "id": 1,
+        "type": "organization",
+        "name": "Green Earth",
+        "description": "A non-profit organization focused on environmental conservation.",
+        "documents": [
+            "doc1.pdf",
+            "doc2.pdf"
+        ],
+        "status": "pending"
+    },
+    {
+        "id": 2,
+        "type": "donor",
+        "name": "John Doe",
+        "description": "Donation for children education programs.",
+        "documents": [
+            "receipt.pdf"
+        ],
+        "status": "pending"
+    }
+]

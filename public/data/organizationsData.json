@@ -1,0 +1,26 @@
+[
+    {
+        "id": 1,
+        "name": "ABC Charity",
+        "category": "Non-Profit",
+        "location": "New York",
+        "foundedYear": 2005,
+        "website": "https://www.abccharity.org"
+    },
+    {
+        "id": 2,
+        "name": "XYZ Foundation",
+        "category": "Charity",
+        "location": "Los Angeles",
+        "foundedYear": 2010,
+        "website": "https://www.xyzfoundation.org"
+    },
+    {
+        "id": 3,
+        "name": "123 Community Center",
+        "category": "Community Service",
+        "location": "Chicago",
+        "foundedYear": 2008,
+        "website": "https://www.123communitycenter.org"
+    }
+]
