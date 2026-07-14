@@ -1,0 +1,83 @@
+/* LoginForm.module.css */
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 40px;
+  border-radius: 8px;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.3);
+  background: linear-gradient(to right, #6a11cb, #2575fc);
+  /* Cool gradient background */
+  color: #fff;
+  /* White text for better contrast */
+  width: 100%;
+  max-width: 400px;
+  margin: auto;
+  box-sizing: border-box;
+}
+
+.form {
+  width: 100%;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  background: rgba(255, 255, 255, 0.8);
+  /* Slight transparency to show background */
+  border-radius: 8px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+}
+
+.header {
+  font-size: 24px;
+  font-weight: bold;
+  margin-bottom: 20px;
+  text-align: center;
+  color: #2c3e50;
+}
+
+.input {
+  padding: 10px;
+  margin-bottom: 15px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  background: white;
+  color: black;
+}
+
+.error {
+  color: #e74c3c;
+  margin-bottom: 10px;
+}
+
+.button,
+.link-button {
+  padding: 12px 20px;
+  margin-top: 10px;
+  background-color: #3498db;
+  border: none;
+  border-radius: 4px;
+  color: white;
+  cursor: pointer;
+  font-weight: bold;
+  transition: background 0.3s, transform 0.2s;
+}
+
+.button:hover,
+.link-button:hover {
+  background-color: #2980b9;
+  transform: scale(1.05);
+}
+
+.signup {
+  margin-top: 20px;
+  font-size: 14px;
+  text-align: center;
+}
+
+.signup a,
+.link-button {
+  cursor: pointer;
+  color: #3498db;
+  text-decoration: none;
+}

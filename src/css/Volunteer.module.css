@@ -1,0 +1,212 @@
+/* Main container style */
+.container {
+    font-family: 'Helvetica Neue', Arial, sans-serif;
+    padding: 50px;
+    margin: 40px auto;
+    max-width: 960px;
+    background: linear-gradient(to bottom right, #ffffff, #f2f6fa);
+    border-radius: 12px;
+    box-shadow: 0 12px 24px rgba(0, 0, 0, 0.1);
+    transition: all 0.3s cubic-bezier(.25, .8, .25, 1);
+}
+
+.container:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 15px 30px rgba(0, 0, 0, 0.2);
+}
+
+/* Styles for the header */
+.header {
+    color: #34495e;
+    border-bottom: 4px solid #5DADE2;
+    padding-bottom: 20px;
+    margin-bottom: 30px;
+    font-size: 28px;
+    font-weight: 600;
+    text-align: center;
+}
+
+/* List styling */
+.list {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.listItem {
+    background-color: #e8f4fd;
+    border-left: 6px solid #3498db;
+    border-radius: 8px;
+    padding: 20px 25px;
+    margin-bottom: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    transition: all 0.2s ease-out;
+}
+
+.listItem:hover {
+    background-color: #d6eaf8;
+    border-left-color: #2e86de;
+}
+
+/* Styling for name and role span */
+.volunteerInfo {
+    cursor: pointer;
+    color: #21618C;
+    font-weight: 700;
+    font-size: 20px;
+    transition: color 0.3s ease-in-out;
+}
+
+.volunteerInfo:hover {
+    color: #1A5276;
+}
+
+/* Button styling */
+.button {
+    padding: 10px 20px;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-weight: 600;
+    text-transform: uppercase;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.15);
+    transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.button:hover {
+    transform: scale(1.05);
+    box-shadow: 0 5px 12px rgba(0, 0, 0, 0.3);
+}
+
+.acceptButton {
+    background-color: #2ECC71;
+    /* Green */
+}
+
+.acceptButton:hover {
+    background-color: #27AE60;
+}
+
+.rejectButton {
+    background-color: #E74C3C;
+    /* Red */
+}
+
+.rejectButton:hover {
+    background-color: #CB4335;
+}
+
+/* Modal specific styles */
+.modalContent {
+    background: #ECF0F1;
+    padding: 30px;
+    border-radius: 8px;
+    color: #2C3E50;
+    font-size: 18px;
+    line-height: 1.6;
+}
+
+.modalHeader {
+    font-size: 1.75em;
+    margin-bottom: 20px;
+    color: #3498DB;
+}
+
+.modalLink {
+    color: #2980B9;
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+
+.modalLink:hover {
+    color: #3498DB;
+}
+
+/* Additional details section */
+.additionalDetails {
+    padding-top: 25px;
+    border-top: 2px dashed #AAB7B8;
+    margin-top: 25px;
+}
+
+.modalContent {
+    background: #ffffff;
+    /* Brighter and cleaner background */
+    padding: 30px;
+    border-radius: 12px;
+    /* Larger radius for a softer look */
+    color: #34495e;
+    /* Darker shade for better readability */
+    font-size: 18px;
+    line-height: 1.8;
+    /* Increased line height for better text spacing */
+    box-shadow: 0 20px 40px rgba(0, 0, 0, 0.15);
+    /* Added shadow for depth */
+    transition: all 0.3s ease;
+    /* Smooth transition for all properties */
+}
+
+.modalHeader {
+    font-size: 24px;
+    /* Slightly larger for more emphasis */
+    margin-bottom: 20px;
+    color: #5DADE2;
+    /* Consistent with header theme color */
+    text-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    /* Subtle text shadow for depth */
+}
+
+.modalLink {
+    color: #21618C;
+    /* Deeper blue for elegance */
+    text-decoration: none;
+    font-weight: 600;
+    /* Bold for better visibility */
+    transition: color 0.3s ease;
+}
+
+.modalLink:hover {
+    color: #1A5276;
+    /* Darker on hover for an interactive feel */
+}
+
+/* Additional details section */
+.additionalDetails {
+    padding-top: 25px;
+    border-top: 2px solid #D5D8DC;
+    /* Solid line for a cleaner look */
+    margin-top: 25px;
+    font-size: 16px;
+    /* Standardizing font size */
+}
+
+.p {
+    color: #34495e;
+    /* A dark grayish-blue for improved readability */
+    font-family: 'Arial', sans-serif;
+    /* A widely supported, readable font */
+    font-size: 16px;
+    /* An ideal size for web readability */
+    line-height: 1.6;
+    /* Spacing for better readability */
+    margin: 10px 0;
+    /* Standard vertical margin to separate paragraphs */
+    padding: 10px;
+    /* Adds padding for a more spacious feel */
+    background-color: #f9f9f9;
+    /* A subtle background color to distinguish paragraphs */
+    border-left: 4px solid #3498db;
+    /* A colored bar to signify starting of new paragraph */
+    transition: background-color 0.3s ease, border-color 0.3s ease;
+    /* Smooth transition for hover effects */
+}
+
+.p:hover {
+    background-color: #f0f0f0;
+    /* Lighter background on hover for interactive feel */
+    border-color: #2e86de;
+    /* Slightly darker shade of border on hover */
+}

@@ -1,0 +1,24 @@
+/* Fullfilled.css */
+
+.fulfilled-container {
+  display: flex;
+  margin-top: 125px; /* Add top margin */
+  margin-bottom: 125px; /* Add bottom margin */
+}
+
+.fulfilled-item {
+  margin-right: 20px;
+  border: 1px solid black; /* Add thin black border */
+  padding: 10px; /* Add padding for better spacing */
+}
+
+.blue-link {
+  color: blue;
+  text-decoration: none;
+  display: block;
+  margin-top: 5px;
+}
+
+.blue-link:hover {
+  text-decoration: underline;
+}

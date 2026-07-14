@@ -1,0 +1,54 @@
+/* Styles for the DoctorNavBar component */
+
+.teachernavbar {
+    width: 100%;
+    height: 100px;
+    background-color: #121619;
+    display: flex;
+    flex-direction: row;
+  }
+  
+  .teachernavbar .leftSide {
+    flex: 50%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    padding-left: 150px;
+  }
+  
+  .teachernavbar .leftSide img {
+    width: 70px;
+  }
+  
+  .teachernavbar .rightSide {
+    flex: 80%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    padding-right: 150px;
+  }
+  
+  .teachernavbar a {
+    color: white;
+    text-decoration: none;
+    margin: 20px;
+  }
+  
+  @media only screen and (max-width: 900px) {
+    .teachernavbar .leftSide {
+      padding-left: 50px;
+    }
+  }
+  
+  @media only screen and (max-width: 600px) {
+    .teachernavbar .rightSide a {
+      display: none;
+    }
+  
+    .teachernavbar .rightSide {
+      justify-content: flex-end;
+      padding-right: 50px;
+    }
+  }
+  

@@ -1,0 +1,12 @@
+.filterbar {
+    background-color: #ccc; /* Grey background color */
+    display: flex;
+    justify-content: space-between; /* Align items to both ends */
+    align-items: center; /* Center items vertically */
+    padding: 10px; /* Add padding */
+    width: 100%; /* Bar fits the width of the screen */
+}
+
+.filterbar .MuiSvgIcon-root {
+    cursor: pointer; /* Make the filter icon clickable */
+}

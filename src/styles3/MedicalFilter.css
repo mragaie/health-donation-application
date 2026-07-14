@@ -1,0 +1,53 @@
+.filterclothes {
+    position: relative;
+    display: inline-block;
+}
+
+.filterclothes .dropdown-button {
+    background-color: #4caf50;
+    color: white;
+    padding: 16px;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+}
+
+.filterclothes .filterclotheslist {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 800px; /* Adjust width according to your needs */
+    box-shadow: 0px 8px 10px 0px rgba(0, 0, 0, 0.2);
+    z-index: 1;
+    top: 100%; /* Position dropdown below the button */
+    left: 0;
+}
+
+.filterclothes .filterclotheslist .firstcol,
+.filterclothes .filterclotheslist .secondcol,
+.filterclothes .filterclotheslist .thirdcol {
+    width: 33.33%; /* Adjust width according to your needs */
+    float: left;
+    padding: 10px;
+    box-sizing: border-box;
+}
+
+.filterclothes .filterclotheslist p {
+    font-weight: bold;
+    margin-top: 0;
+}
+
+.filterclothes .filterclotheslist a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+
+.filterclothes .filterclotheslist a:hover {
+    background-color: #f1f1f1;
+}
+
+.filterclothes:hover .filterclotheslist {
+    display: block;
+}

@@ -1,0 +1,129 @@
+/* Base container for the component */
+.container {
+    max-width: 600px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #f9f9f9;
+    border-radius: 8px;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+}
+
+/* Heading style */
+.heading {
+    color: #333;
+    font-size: 24px;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+/* Styles for the list of requests */
+.requestList {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+.requestItem {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 10px;
+    padding: 10px;
+    background-color: #ffffff;
+    border-radius: 5px;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.05);
+}
+
+.requestButton {
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    padding: 8px 16px;
+    border-radius: 4px;
+    cursor: pointer;
+    font-weight: 500;
+    margin-left: 10px;
+    transition: background-color 0.3s;
+}
+
+.requestButton:hover {
+    background-color: #45a049;
+}
+
+.rejectButton {
+    background-color: #f44336;
+}
+
+.rejectButton:hover {
+    background-color: #dc2836;
+}
+
+.linkButton {
+    background: none;
+    border: none;
+    padding: 0;
+    color: #065fd4;
+    cursor: pointer;
+    /* text-decoration: underline; */
+}
+
+/* Modal Content Typography and Layout Enhancements */
+.modalContainer {
+    background: #fff;
+    color: #333;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    line-height: 1.6;
+}
+
+.modalHeader {
+    font-size: 26px;
+    color: #2C3E50;
+    margin-bottom: 20px;
+    padding-bottom: 10px;
+    border-bottom: 2px solid #EAECEE;
+}
+
+.modalBody {
+    padding: 20px;
+    overflow-y: auto;
+}
+
+.detail {
+    font-size: 16px;
+    color: #444;
+    margin-bottom: 12px;
+}
+
+/* Improved link and button styles for better readability and interaction */
+.modalLink {
+    font-size: 16px;
+    color: #3498DB;
+    text-decoration: none;
+}
+
+.modalLink:hover {
+    color: #1A5276;
+}
+
+.modalButton {
+    background-color: #3498DB;
+    color: white;
+    border-radius: 5px;
+    padding: 10px 20px;
+    font-size: 16px;
+    margin-top: 20px;
+    transition: background-color 0.2s ease-in-out;
+}
+
+.modalButton:hover {
+    background-color: #2980B9;
+}
+
+/* Styling for additional details to make them stand out */
+.additionalDetails {
+    font-size: 15px;
+    color: #666;
+    margin-top: 15px;
+    padding-top: 10px;
+    border-top: 1px dashed #ccc;
+}

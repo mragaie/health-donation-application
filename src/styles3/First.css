@@ -1,0 +1,33 @@
+/* Home.css */
+.home {
+  background-size: cover;
+  background-position: center;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.button-link {
+  margin: 10px;
+}
+.button-link button:hover {
+    background-color: #592a0f; /* Button background color on hover */
+  }
+
+.button-link button {
+  padding: 15px 30px;
+  font-size: 18px;
+}
+.banner {
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    height: 100vh; /* Set height to 100vh for full viewport height */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: white; /* Text color for the banner */
+  }

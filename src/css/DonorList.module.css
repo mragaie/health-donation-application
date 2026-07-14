@@ -1,0 +1,73 @@
+/* DonorList.module.css */
+.container {
+    max-width: 600px;
+    margin: 30px auto;
+    padding: 20px;
+    background-color: #ffffff;
+    /* Clean white background */
+    border-radius: 10px;
+    box-shadow: 0 4px 16px rgba(0, 0, 0, 0.1);
+    /* Soft shadow for depth */
+    text-align: center;
+}
+
+.title {
+    color: #333;
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+.searchInput {
+    width: 100%;
+    /* Full width for better mobile responsiveness */
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+    margin-bottom: 20px;
+    outline: none;
+    /* Removes the default focus outline */
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.05);
+    /* Subtle shadow on the input field */
+}
+
+.list {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.item {
+    background-color: #f9f9f9;
+    /* Slightly off-white for the list items */
+    padding: 12px 18px;
+    margin-top: 10px;
+    border-radius: 5px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    box-shadow: 0 1px 4px rgba(0, 0, 0, 0.1);
+    transition: all 0.3s ease;
+}
+
+.item:hover {
+    background-color: #eef2f7;
+    /* Light blue background on hover for better interaction */
+}
+
+.button {
+    padding: 8px 12px;
+    background-color: #e74c3c;
+    /* Red color for delete button to indicate action */
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.2s ease-in-out;
+}
+
+.button:hover {
+    background-color: #c0392b;
+    /* Darker shade of red on hover */
+}

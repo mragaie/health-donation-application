@@ -1,0 +1,111 @@
+/* OrganizationDetails.module.css */
+
+.container {
+    max-width: 800px;
+    margin: 30px auto;
+    padding: 30px;
+    background-color: #fff;
+    border-radius: 12px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    font-family: 'Arial', sans-serif;
+    color: #333;
+}
+
+.title {
+    font-size: 30px;
+    color: #2a2a72;
+    margin-bottom: 20px;
+}
+
+.status {
+    font-size: 20px;
+    margin-bottom: 10px;
+    color: #4a90e2;
+}
+
+.detail {
+    font-size: 16px;
+    line-height: 1.6;
+    margin-bottom: 10px;
+    color: #666;
+}
+
+.documents {
+    background-color: #f4f4f9;
+    padding: 20px;
+    border-radius: 8px;
+    margin-top: 20px;
+}
+
+.documentList {
+    list-style: none;
+    padding: 0;
+}
+
+.documentItem {
+    padding: 10px;
+    border-bottom: 1px solid #ddd;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.downloadButton {
+    background-color: #5cb85c;
+    color: white;
+    border: none;
+    padding: 8px 15px;
+    font-size: 14px;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.downloadButton:hover {
+    background-color: #449d44;
+}
+
+.noDetail {
+    color: #999;
+    font-style: italic;
+}
+
+.detail {
+    color: #444;
+    font-size: 16px;
+    line-height: 1.6;
+    margin-bottom: 8px;
+    border-left: 3px solid #4a90e2;
+    /* Adds a colored bar to the left of the details */
+    padding-left: 15px;
+    /* Adds spacing to the left of the text for better readability */
+}
+
+.noDetail {
+    color: #999;
+    /* Grayed out color for unavailable information */
+    font-style: italic;
+    /* Italicizes text to indicate missing details */
+}
+
+/* Adding icons for a visual cue (Assuming you have a way to include icons, like an icon font or SVGs) */
+.icon {
+    margin-right: 5px;
+    vertical-align: middle;
+    /* Aligns icon with text */
+}
+
+.contactIcon::before {
+    content: '📞';
+    /* Example using emoji; replace with an actual icon as needed */
+}
+
+.addressIcon::before {
+    content: '🏠';
+    /* Example using emoji; replace with an actual icon as needed */
+}
+
+.typeIcon::before {
+    content: '🔖';
+    /* Example using emoji; replace with an actual icon as needed */
+}

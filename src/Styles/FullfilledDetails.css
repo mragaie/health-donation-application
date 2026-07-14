@@ -1,0 +1,22 @@
+/* FullfilledDetails.css */
+
+.fullfilled-details {
+    text-align: center;
+    border: 1px solid black; /* Add thin black border */
+    padding: 10px; /* Add padding for better spacing */
+  }
+  
+  .fullfilled-details img {
+    width: 200px; /* Adjust width as needed */
+    height: auto; /* Maintain aspect ratio */
+    margin-bottom: 20px; /* Add bottom margin */
+  }
+  
+  .fullfilled-details p {
+    margin: 5px 0; /* Add margin above and below each paragraph */
+  }
+  
+  .fullfilled-details p.bold {
+    font-weight: bold;
+  }
+  
